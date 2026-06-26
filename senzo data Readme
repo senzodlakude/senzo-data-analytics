@@ -1,0 +1,24 @@
+
+> 💡 **Note:** The `assets/` and `images/` folders are placeholders. You can add them to store your CV and custom profile picture.
+
+---
+
+## 🚀 Deployment
+
+This site is optimized for **GitHub Pages**. To deploy your own copy:
+
+1. **Fork this repository** or create a new one.
+2. **Copy the `index.html`** file into the root of your repo.
+3. (Optional) Add your custom `cv.pdf` to an `assets/` folder and your profile picture to `images/`.
+4. Go to your repository **Settings** → **Pages**.
+5. Under "Branch", select `main` and save.
+6. Your site will be live at `https://<your-username>.github.io/<repo-name>/` within a few minutes.
+
+Alternatively, you can serve it locally with any static server:
+
+```bash
+# Using Python 3
+python -m http.server 8000
+
+# Using Node.js (serve)
+npx serve.
