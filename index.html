@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Senzo Romario Ndlakude | Data Analyst Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- Ambient orbs -->
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+
+    <!-- Toast notification -->
+    <div class="toast" id="toast">
+        <i class="fas fa-check-circle"></i>
+        <span id="toastMsg">Message sent successfully!</span>
+    </div>
+
+    <!-- ============================================================
+    NAVIGATION
+    ============================================================ -->
+    <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+        <div class="container">
+            <a href="#" class="logo">
+                <div class="logo-icon"><i class="fas fa-chart-line"></i></div>
+                Senzo<span>Analytics</span>
+            </a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hero" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certs</a></li>
+                <li><a href="#contact" class="nav-hire-btn">Hire Me</a></li>
+            </ul>
+
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ============================================================
+    HERO
+    ============================================================ -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-eyebrow">
+                    <span class="dot"></span>
+                    Available for freelance &amp; full-time roles
+                </div>
+                <h1>Senzo Romario<br /><span class="highlight">Ndlakude</span></h1>
+                <div class="tagline">
+                    <span class="typing" id="typingText">Data Analyst</span>
+                </div>
+                <p>
+                    I transform raw data into actionable insights using
+                    <strong>Excel, SQL, Power BI, Tableau, and Python</strong>.
+                    Helping businesses make decisions that are powered by data — not guesswork.
+                </p>
+                <div class="hero-tech-pills">
+                    <span class="tech-pill"><i class="fas fa-database"></i> SQL</span>
+                    <span class="tech-pill"><i class="fab fa-python"></i> Python</span>
+                    <span class="tech-pill">Power BI</span>
+                    <span class="tech-pill">Tableau</span>
+                    <span class="tech-pill">Excel</span>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-folder-open"></i> View Projects
+                    </a>
+                    <a href="#" class="btn btn-outline" id="downloadCV">
+                        <i class="fas fa-file-pdf"></i> Download CV
+                    </a>
+                </div>
+                <div class="hero-social">
+                    <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <div class="avatar-wrapper">
+                    <div class="glow-ring"></div>
+                    <div class="glow-ring-2"></div>
+                    <div class="avatar">
+                        <img src="https://ui-avatars.com/api/?name=Senzo+Ndlakude&size=380&background=0D1526&color=4F8EFF&bold=true" alt="Senzo Romario Ndlakude" />
+                    </div>
+                    <div class="floating-card badge-1">
+                        <div class="card-icon card-icon-green"><i class="fas fa-check"></i></div>
+                        <div class="card-text">
+                            <div class="top">10+ Projects</div>
+                            <div class="bot">Delivered end-to-end</div>
+                        </div>
+                    </div>
+                    <div class="floating-card badge-2">
+                        <div class="card-icon card-icon-blue"><i class="fas fa-certificate"></i></div>
+                        <div class="card-text">
+                            <div class="top">4 Certifications</div>
+                            <div class="bot">Industry recognized</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    ABOUT
+    ============================================================ -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="badge">About Me</span>
+                <h2>Turning Data Into <span>Decisions</span></h2>
+                <p>I'm a data analyst with a passion for uncovering stories hidden in numbers.</p>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-text reveal">
+                    <h3>Analytics Professional</h3>
+                    <p>
+                        With a strong foundation in <strong>Data Analytics</strong> and
+                        <strong>Data Science</strong>, I specialize in building dashboards,
+                        writing efficient SQL queries, and creating predictive models that
+                        drive business growth.
+                    </p>
+                    <p>
+                        I hold a <strong>Data Analytics Essentials</strong> certification
+                        from Cisco and an <strong>Introduction to Data Science</strong>
+                        certification. I'm passionate about continuous learning and applying
+                        analytics to solve real-world problems.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item reveal reveal-delay-1">
+                            <span class="number" data-count="12">0</span><span class="stat-suffix">+</span>
+                            <span class="label">Projects Completed</span>
+                        </div>
+                        <div class="stat-item reveal reveal-delay-2">
+                            <span class="number" data-count="4">0</span>
+                            <span class="label">Certifications</span>
+                        </div>
+                        <div class="stat-item reveal reveal-delay-3">
+                            <span class="number" data-count="8">0</span><span class="stat-suffix">+</span>
+                            <span class="label">Dashboards Built</span>
+                        </div>
+                        <div class="stat-item reveal reveal-delay-1">
+                            <span class="number" data-count="150">0</span><span class="stat-suffix">+</span>
+                            <span class="label">SQL Queries Written</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-image reveal reveal-delay-2">
+                    <div class="about-avatar-wrap">
+                        <div class="about-avatar">
+                            <img src="https://ui-avatars.com/api/?name=Senzo+Ndlakude&size=320&background=060B18&color=4F8EFF&bold=true" alt="Senzo Romario Ndlakude" />
+                        </div>
+                        <div class="about-deco-card">
+                            <div class="deco-label">Daily Tools</div>
+                            <div class="deco-tools">
+                                <span>Python</span>
+                                <span>SQL</span>
+                                <span>Power BI</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    SKILLS
+    ============================================================ -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="badge">My Toolkit</span>
+                <h2>Technical <span>Skills</span></h2>
+                <p>Tools and technologies I use daily to deliver analytics solutions.</p>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-category reveal reveal-delay-1">
+                    <div class="category-header">
+                        <div class="category-icon"><i class="fas fa-database"></i></div>
+                        <h4>Data Analysis</h4>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Python (pandas, numpy)</span><span>85%</span></div>
+                        <div class="skill-bar"><div class="fill" data-width="85"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>SQL (MySQL, PostgreSQL)</span><span>90%</span></div>
+                        <div class="skill-bar"><div class="fill" data-width="90"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Excel (Power Query, Pivot)</span><span>88%</span></div>
+                        <div class="skill-bar"><div class="fill" data-width="88"></div></div>
+                    </div>
+                </div>
+
+                <div class="skill-category reveal reveal-delay-2">
+                    <div class="category-header">
+                        <div class="category-icon"><i class="fas fa-chart-pie"></i></div>
+                        <h4>Visualization</h4>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Power BI</span><span>85%</span></div>
+                        <div class="skill-bar"><div class="fill" data-width="85"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Tableau</span><span>75%</span></div>
+                        <div class="skill-bar"><div class="fill" data-width="75"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Matplotlib / Seaborn</span><span>70%</span></div>
+                        <div class="skill-bar"><div class="fill" data-width="70"></div></div>
+                    </div>
+                </div>
+
+                <div class="skill-category reveal reveal-delay-3">
+                    <div class="category-header">
+                        <div class="category-icon"><i class="fas fa-code"></i></div>
+                        <h4>Database & Tools</h4>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>MySQL</span><span>85%</span></div>
+                        <div class="skill-bar"><div class="fill" data-width="85"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Git / GitHub</span><span>80%</span></div>
+                        <div class="skill-bar"><div class="fill" data-width="80"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>VS Code / Jupyter</span><span>90%</span></div>
+                        <div class="skill-bar"><div class="fill" data-width="90"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    PROJECTS
+    ============================================================ -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="badge">Portfolio</span>
+                <h2>Featured <span>Projects</span></h2>
+                <p>End-to-end analytics projects built with real-world datasets.</p>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="projects-grid">
+
+                <div class="project-card reveal reveal-delay-1">
+                    <div class="card-image">
+                        <div class="img-bg" style="background: linear-gradient(135deg, #1a2d5a, #0F172A);"></div>
+                        <div class="card-icon-wrap"><i class="fas fa-store"></i></div>
+                        <div class="overlay">
+                            <a href="#" class="overlay-btn-primary"><i class="fas fa-eye"></i> Preview</a>
+                            <a href="#" class="overlay-btn-ghost"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="tags"><span>Power BI</span><span>SQL</span><span>Excel</span></div>
+                        <h4>Retail Sales Analytics</h4>
+                        <p>Executive dashboard analyzing revenue, profit, and customer trends for a retail company. Built with Power BI and SQL.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    </div>
+                </div>
+
+                <div class="project-card reveal reveal-delay-2">
+                    <div class="card-image">
+                        <div class="img-bg" style="background: linear-gradient(135deg, #1a3a2a, #0F172A);"></div>
+                        <div class="card-icon-wrap"><i class="fas fa-users"></i></div>
+                        <div class="overlay">
+                            <a href="#" class="overlay-btn-primary"><i class="fas fa-eye"></i> Preview</a>
+                            <a href="#" class="overlay-btn-ghost"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="tags"><span>Python</span><span>Power BI</span><span>SQL</span></div>
+                        <h4>HR Analytics Dashboard</h4>
+                        <p>Employee attrition analysis with key metrics by department, tenure, and salary. Predictive insights using Python.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    </div>
+                </div>
+
+                <div class="project-card reveal reveal-delay-3">
+                    <div class="card-image">
+                        <div class="img-bg" style="background: linear-gradient(135deg, #2a1a3a, #0F172A);"></div>
+                        <div class="card-icon-wrap"><i class="fas fa-credit-card"></i></div>
+                        <div class="overlay">
+                            <a href="#" class="overlay-btn-primary"><i class="fas fa-eye"></i> Preview</a>
+                            <a href="#" class="overlay-btn-ghost"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="tags"><span>Python</span><span>SQL</span><span>Tableau</span></div>
+                        <h4>Credit Card Transaction Analysis</h4>
+                        <p>Analyzed spending patterns, customer segments, and fraud indicators using Python and SQL. Built an interactive Tableau dashboard.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    </div>
+                </div>
+
+                <div class="project-card reveal reveal-delay-1">
+                    <div class="card-image">
+                        <div class="img-bg" style="background: linear-gradient(135deg, #3a1a1a, #0F172A);"></div>
+                        <div class="card-icon-wrap"><i class="fas fa-film"></i></div>
+                        <div class="overlay">
+                            <a href="#" class="overlay-btn-primary"><i class="fas fa-eye"></i> Preview</a>
+                            <a href="#" class="overlay-btn-ghost"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="tags"><span>SQL</span><span>Power BI</span><span>Python</span></div>
+                        <h4>Netflix Content Analysis</h4>
+                        <p>Explored content trends, genres, and country distribution using SQL and Python. Built a Power BI dashboard for insights.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    </div>
+                </div>
+
+                <div class="project-card reveal reveal-delay-2">
+                    <div class="card-image">
+                        <div class="img-bg" style="background: linear-gradient(135deg, #1a2a3a, #0F172A);"></div>
+                        <div class="card-icon-wrap"><i class="fas fa-hotel"></i></div>
+                        <div class="overlay">
+                            <a href="#" class="overlay-btn-primary"><i class="fas fa-eye"></i> Preview</a>
+                            <a href="#" class="overlay-btn-ghost"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="tags"><span>Python</span><span>SQL</span><span>Excel</span></div>
+                        <h4>Hotel Booking Analysis</h4>
+                        <p>Analyzed cancellations, seasonal demand, and revenue by booking channel. Built predictive models for cancellation risk.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    </div>
+                </div>
+
+                <div class="project-card reveal reveal-delay-3">
+                    <div class="card-image">
+                        <div class="img-bg" style="background: linear-gradient(135deg, #1a3a3a, #0F172A);"></div>
+                        <div class="card-icon-wrap"><i class="fas fa-shopping-cart"></i></div>
+                        <div class="overlay">
+                            <a href="#" class="overlay-btn-primary"><i class="fas fa-eye"></i> Preview</a>
+                            <a href="#" class="overlay-btn-ghost"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="tags"><span>Power BI</span><span>SQL</span><span>Python</span></div>
+                        <h4>E-commerce Dashboard</h4>
+                        <p>Executive dashboard with customer lifetime value, repeat purchase rate, and product performance for an online store.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    CERTIFICATIONS
+    ============================================================ -->
+    <section class="certifications" id="certifications">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="badge">Credentials</span>
+                <h2>Certifications &amp; <span>Awards</span></h2>
+                <p>Verified credentials from industry-recognized institutions.</p>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="certs-grid">
+                <div class="cert-card reveal reveal-delay-1">
+                    <div class="cert-icon-wrap"><i class="fas fa-certificate"></i></div>
+                    <h4>Data Analytics Essentials</h4>
+                    <p class="issuer">Cisco Networking Academy</p>
+                    <p class="date">Issued: December 2022</p>
+                    <span class="cert-badge"><i class="fas fa-check"></i> Verified</span>
+                </div>
+
+                <div class="cert-card reveal reveal-delay-2">
+                    <div class="cert-icon-wrap"><i class="fas fa-graduation-cap"></i></div>
+                    <h4>Introduction to Data Science</h4>
+                    <p class="issuer">Cisco Networking Academy</p>
+                    <p class="date">Issued: December 2022</p>
+                    <span class="cert-badge"><i class="fas fa-check"></i> Verified</span>
+                </div>
+
+                <div class="cert-card reveal reveal-delay-3">
+                    <div class="cert-icon-wrap"><i class="fas fa-chart-bar"></i></div>
+                    <h4>Data Analysis with Python</h4>
+                    <p class="issuer">IBM / Coursera</p>
+                    <p class="date">Issued: 2023</p>
+                    <span class="cert-badge"><i class="fas fa-check"></i> Verified</span>
+                </div>
+
+                <div class="cert-card reveal reveal-delay-1">
+                    <div class="cert-icon-wrap"><i class="fas fa-database"></i></div>
+                    <h4>SQL for Data Science</h4>
+                    <p class="issuer">University of California, Davis</p>
+                    <p class="date">Issued: 2023</p>
+                    <span class="cert-badge"><i class="fas fa-check"></i> Verified</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    CONTACT
+    ============================================================ -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="badge">Get in Touch</span>
+                <h2>Let's <span>Connect</span></h2>
+                <p>I'm always open to discussing new projects, ideas, or opportunities.</p>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="contact-wrapper">
+                <div class="contact-info reveal">
+                    <h3>Let's work together</h3>
+                    <p>
+                        Whether you need a dashboard built, data analyzed, or a
+                        strategy defined — I'd love to hear from you.
+                    </p>
+
+                    <div class="contact-item">
+                        <div class="icon"><i class="fas fa-envelope"></i></div>
+                        <div class="text">
+                            <div class="label">Email</div>
+                            <a href="mailto:senzo@example.com">senzo@example.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="icon"><i class="fas fa-phone-alt"></i></div>
+                        <div class="text">
+                            <div class="label">Phone</div>
+                            <a href="tel:+27720000000">+27 72 000 0000</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="text">
+                            <div class="label">Location</div>
+                            <span>South Africa</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-socials">
+                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <form class="contact-form reveal reveal-delay-2" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" placeholder="John Doe" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" placeholder="john@example.com" required />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" placeholder="Project Inquiry" />
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" placeholder="Tell me about your project..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+    FOOTER
+    ============================================================ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-social">
+                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            </div>
+            <p>
+                &copy; 2026 Senzo Romario Ndlakude &bull; Built with
+                <i class="fas fa-heart"></i>
+                &bull; All rights reserved.
+            </p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+
+
+</body>
+</html>
